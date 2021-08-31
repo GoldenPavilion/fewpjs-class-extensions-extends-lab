@@ -37,4 +37,8 @@ class Square extends Polygon {
             return false;
         }
     }
+
+    get area(){
+        return this.sides[0] * this.sides[1];
+    }
 }
